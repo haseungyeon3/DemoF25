@@ -12,7 +12,7 @@ Repo for students to practice creating a pull request after forking a repo
 
 3. Clone the forked GitHub repository from your GitHub account (`git clone https://github.com/your-username/DemoF25.git`), replacing `your-username` with your actual GitHub username.
 
-4. Navigate to the folder in a terminal window (if you haven't already) and run:
+5. Navigate to the folder in a terminal window (if you haven't already) and run:
 
     a. `git checkout main` (make sure you are on the main branch)
     
@@ -20,9 +20,9 @@ Repo for students to practice creating a pull request after forking a repo
     
     c. `git checkout dev` (checkout the new branch)
 
-5. Edit `sleephour.xlsx` on your local machine in the directory by adding your daily sleep hours to the file and save it.
+6. Edit `sleephour.xlsx` on your local machine in the directory by adding your daily sleep hours to the file and save it.
 
-6. In the terminal window run:
+7. In the terminal window run:
 
     a. `git status` (should show that `sleephour.xlsx` has been modified but is not in the staging area)
     
@@ -31,6 +31,7 @@ Repo for students to practice creating a pull request after forking a repo
     c. `git commit -m 'added daily sleep hours <insert value here>' ` replacing `<insert value here>` with your daily sleep hours.
     
     d. `git push --set-upstream origin dev` (set up and use a classic security token if needed to be able to do this)
+    -->  Create remote branch dev. ('git remove -v' to list all remote branches in terminal)
 
 6. Create a pull request on GitHub to merge your changes from your forked repository into the original repository:
 
